@@ -1,0 +1,6 @@
+<h2>Edit Note</h2>
+<form method="post">
+  <textarea name="content">{{ note.content }}</textarea>
+  <button type="submit">Save</button>
+</form>
+<a href="{{ url_for('index') }}">Back</a>
